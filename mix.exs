@@ -1,7 +1,7 @@
 defmodule ESI.Mixfile do
   use Mix.Project
 
-  @version "0.1.2"
+  @version "0.1.3"
 
   def project do
     [
@@ -54,7 +54,7 @@ defmodule ESI.Mixfile do
 
   defp package do
     [
-      files: ["lib", "mix.exs", "README.md", "LICENSE"],
+      files: ["lib", "mix.exs", "README.md", "LICENSE.md"],
       maintainers: ["Mikal Villa"],
       licenses: ["MIT"],
       links: %{GitHub: "https://github.com/mikalv/ex_esi"}
