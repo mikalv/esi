@@ -2,19 +2,21 @@
 
 An Elixir client for Eve Online's Swagger Interface (ESI).
 
+This is a up-to-date fork of [the original authors great work](https://github.com/bruce/esi), but due to no recent updates I felt forced to fork it, so that I could use it - feel free to use it :)
+
 ## Installation
 
-Install from [Hex.pm](https://hex.pm/packages/esi):
+Install from [Hex.pm](https://hex.pm/packages/ex_esi):
 
 ```elixir
 def deps do
-  [{:esi, "~> 0.1"}]
+  [{:ex_esi, "~> 0.1"}]
 end
 ```
 
 ## Documentation
 
-Documentation is available at <https://hexdocs.pm/esi>.
+Documentation is available at <https://hexdocs.pm/ex_esi>.
 
 ## Synopsis
 

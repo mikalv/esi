@@ -5,13 +5,13 @@ defmodule ESI.Mixfile do
 
   def project do
     [
-      app: :esi,
+      app: :ex_esi,
       version: @version,
-      elixir: "~> 1.4",
+      elixir: "~> 1.10",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
-      source_url: "https://github.com/bruce/esi",
-      homepage_url: "https://github.com/bruce/esi",
+      source_url: "https://github.com/mikalv/ex_esi",
+      homepage_url: "https://github.com/mikalv/ex_esi",
       description: description(),
       deps: deps(),
       docs: docs(),
@@ -46,7 +46,7 @@ defmodule ESI.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:hackney, "~> 1.10"},
+      {:hackney, "~> 1.17"},
       {:poison, "~> 3.1"},
       {:ex_doc, "~> 0.18.1", only: :dev, runtime: false}
     ]
@@ -55,9 +55,9 @@ defmodule ESI.Mixfile do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
-      maintainers: ["Bruce Williams", "Brian O'Grady"],
+      maintainers: ["Mikal Villa"],
       licenses: ["MIT"],
-      links: %{GitHub: "https://github.com/bruce/esi"}
+      links: %{GitHub: "https://github.com/mikalv/ex_esi"}
     ]
   end
 end
